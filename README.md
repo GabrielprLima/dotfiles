@@ -1,2 +1,2 @@
 # Black-White
-Um mero ambiente arch com bspwm bem minimalista
+Um mero ambiente arch com bspwm bem minimalista.
