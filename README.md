@@ -1,2 +1,2 @@
 # 🪐
-Um mero ambiente arch com bspwm bem minimalista.
+Um mero ambiente Arch com bspwm bem minimalista.
