@@ -39,7 +39,7 @@ window {
     background-color: @background;
     border:           1;
     padding:          4;
-    width:            200px;
+    width:            150px;
 }
 mainbox {
     border:  0;
@@ -60,7 +60,7 @@ listview {
     spacing:      2px ;
     scrollbar:    true;
     padding:      2px 0px 0px ;
-    lines:        4;
+    lines:        3;
 }
 element {
     border:  0;
@@ -120,11 +120,6 @@ button.selected {
     background-color: @selected-normal-background;
     text-color:       @selected-normal-foreground;
 }
-inputbar {
-    spacing:    0;
-    text-color: @normal-foreground;
-    padding:    1px ;
-}
 case-indicator {
     spacing:    0;
     text-color: @normal-foreground;
@@ -138,13 +133,6 @@ prompt, button{
     text-color: @normal-foreground;
 }
 inputbar {
-    children:   [ prompt,textbox-prompt-colon,entry,case-indicator ];
+    enabled:     false;
 }
-textbox-prompt-colon {
-    expand:     false;
-    str:        "";
-    margin:     0px 0.3em 0em 0em ;
-    text-color: @normal-foreground;
-}
-
 
