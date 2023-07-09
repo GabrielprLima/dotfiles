@@ -27,5 +27,4 @@ bspc rule -a Screenkey manage=off
 setxkbmap br &
 nitrogen --restore &
 picom -f &
-#~/.config/lemonbar/lemonbar.sh &
 
