@@ -1,3 +1,3 @@
 🪐
-bspwm.
 
+bspwm.
