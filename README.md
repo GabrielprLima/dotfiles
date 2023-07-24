@@ -2,5 +2,6 @@
 ============
 Minimal bspwm
 -
-![20230723-190756](https://github.com/Fenrisulfr66/dotfiles/assets/133074518/7e92fdde-7041-410d-b3ee-678c70627dc8)
+
+![20230724-003736](https://github.com/Fenrisulfr66/dotfiles/assets/133074518/0e3dbb0f-ee3d-472c-9183-dedc2c41e32b)
 
