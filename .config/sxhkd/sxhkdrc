@@ -25,7 +25,7 @@ super + x
 
 # screenshoot
 super + n
-  import -window root ~/screenshoots/$(date '+%Y%m%d-%H%M%S').png
+  import -window root ~/Imagens/screenshoots/$(date '+%Y%m%d-%H%M%S').png
 
 #
 # bspwm hotkeys
