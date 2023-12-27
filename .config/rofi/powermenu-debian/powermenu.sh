@@ -20,9 +20,11 @@ uptime=$(uptime -p)
 my_hostname=$(hostname)
 
 # Options
-shutdown=" Shutdown"
-reboot=" Reboot"
-logout=" Logout"
+shutdown='    Shutdown'
+reboot='    Reboot'
+logout='    Logout'
+yes=' Yes'
+no=' No'
 
 # Variable passed to rofi
 options="$shutdown\n$reboot\n$logout"
