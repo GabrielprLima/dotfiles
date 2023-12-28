@@ -10,7 +10,7 @@ env:
 window:
   #  columns: 0
   #  lines: 0
-  opacity: 0.85
+  opacity: 1.0
 
   #position:
   #  x: 0
@@ -61,7 +61,7 @@ font:
     style: Bold Italic
 
   # Point size
-  size: 8.5
+  size: 10
 
   # Offset is the extra space around each character. `offset.y` can be thought of
   # as modifying the line spacing, and `offset.x` as modifying the letter spacing.
@@ -82,7 +82,7 @@ colors:
   # Default colors
   primary:
     background: '#000000'
-    foreground: '#ffffff'
+    foreground: '#aaaaaa'
 
   # Selection colors
   selection:
