@@ -18,9 +18,9 @@ theme="dark"
 host=`hostname`
 
 # Options
-shutdown='    Shutdown'
-reboot='    Reboot'
-logout='    Logout'
+shutdown=' Shutdown'
+reboot=' Reboot'
+logout=' Logout'
 yes=' Yes'
 no=' No'
 
