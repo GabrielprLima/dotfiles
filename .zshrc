@@ -13,6 +13,7 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 export PATH=$HOME/.local/bin:$HOME/.cargo/bin:$PATH
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 PROMPT='%~%f > '
 alias ls="exa --color=never --icons"
