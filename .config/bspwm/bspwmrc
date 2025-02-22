@@ -27,4 +27,7 @@ bspc rule -a Screenkey manage=off
 setxkbmap br &
 nitrogen --restore &
 picom -f &
+exec gentoo-pipewire-laucher &
+xset s off
+xset -dpms
 
