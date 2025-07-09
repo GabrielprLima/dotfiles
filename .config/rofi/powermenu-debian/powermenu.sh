@@ -29,7 +29,7 @@ no=' No'
 # Variable passed to rofi
 options="$shutdown\n$reboot\n$logout"
 
-chosen="$(echo -e "$options" | $rofi_command -p " Power-Menu " -dmenu -selected-row 2)"
+chosen="$(echo -e "$options" | $rofi_command -p " Power-Menu " -dmenu -selected-row 0)"
 case $chosen in
     $shutdown)
         sudo shutdown -h now
