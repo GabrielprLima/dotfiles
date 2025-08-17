@@ -1,5 +1,5 @@
  ☾ㅤ
 ============
-Minimal bspwm
+bspwm and i3 config
 -
 
