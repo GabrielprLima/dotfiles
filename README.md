@@ -1,5 +1,5 @@
  ☾ㅤ
 ============
-bspwm and i3 config
+bspwm and i3
 -
 
