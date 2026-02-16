@@ -46,6 +46,29 @@
     "show-passive-items": true
   },
 
+  "bluetooth": {
+    "format": "󰂲",
+    "format-on": "{icon}",
+    "format-off": "{icon}", 
+    "format-connected":"{icon}",
+    "format-icons":{
+        "on":"󰂯",
+        "off": "󰂲",
+        "connected": "󰂱",
+    },
+    "on-click": "kitty --class kitty-bluetooth -T bluetuith -e bluetuith",
+    "tooltip-format-connected":"{device_enumerate}"
+  },
+
+  "pulseaudio": {
+    "format": "{icon} {volume}",
+    "format-muted": "",
+    "format-icons": {
+      "default": ["", "", " "]
+    },
+    "on-click": "pavucontrol"
+  },
+
   "network": {
     "format-wifi": "", 
     "format-ethernet": "",
@@ -63,28 +86,5 @@
     "format": "{icon} {percent}",
     "format-icons": ["","󰃜", "󰃛", "󰃞","󰃝","󰃟","󰃠"],
     "tooltip": false
-  },
-
-  "pulseaudio": {
-    "format": "{icon} {volume}",
-    "format-muted": "",
-    "format-icons": {
-      "default": ["", "", " "]
-    },
-    "on-click": "pavucontrol"
-  },
-
-  "bluetooth": {
-    "format": "󰂲",
-    "format-on": "{icon}",
-    "format-off": "{icon}", 
-    "format-connected":"{icon}",
-    "format-icons":{
-        "on":"󰂯",
-        "off": "󰂲",
-        "connected": "󰂱",
-    },
-    "on-click": "kitty --class kitty-bluetooth -T bluetuith -e bluetuith",
-    "tooltip-format-connected":"{device_enumerate}"
   },
 }
