@@ -25,7 +25,7 @@ super + x
 
 # screenshoot
 super + n
-  maim -u -o: ~/Imagens/screenshoots/$(date '+%Y%m%d-%H%M%S').png
+  maim -u -o: ~/Imagens/screenshots/$(date '+%Y%m%d-%H%M%S').png
 
 #
 # bspwm hotkeys
